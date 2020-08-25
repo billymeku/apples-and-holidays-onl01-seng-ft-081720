@@ -75,7 +75,9 @@ holiday_hash.each do |season, holiday|
         puts "  #{completed_holiday_array}: #{completed_supplies_array}"
     end
   end
-end	end
+end	
+
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
