@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
  
   holiday_hash.each do |attribute, value|
    
-    if attribute == :favorite_ice_cream_flavors
+    if attribute == favorite_ice_cream_flavorswinter
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
         puts "#{flavor}"
