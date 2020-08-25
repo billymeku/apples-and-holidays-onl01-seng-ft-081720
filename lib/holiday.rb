@@ -60,8 +60,19 @@ def all_supplies_in_holidays(holiday_hash)
   #   New Years: Party Hats
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
-  # etc.
+  # etc.\
   
+ 
+  holiday_hash.each do |attribute, value|
+   
+    if attribute == :favorite_ice_cream_flavors
+      value.each do |flavor|
+        # here, each index element in an ice cream flavor string
+        puts "#{flavor}"
+      end
+    end
+  end
+end
   
 
 end
