@@ -64,14 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
   
  
   holiday_hash.each do |attribute, value|
-   
-    if attribute == :winter 
-      value.each do |flavor|
-        # here, each index element in an ice cream flavor string
-        puts "#{flavor}"
-      end
-    end
-  end
+  holiday_hash
+ end
 end
   
 
